@@ -1,12 +1,13 @@
-import express from 'express';
+import express from "express";
 
 const app = express();
 const PORT = 10000;
 
+app.use(express.static("public"));
 app.get("/", (req, res, next) => {
   res.end("Top Page");
-})
+});
 
 app.listen(PORT, () => {
-  console.log(`Server is running or port ${PORT}`)
-})
+  console.log(`Server is running or port ${PORT}`);
+});
