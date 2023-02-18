@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:server": "ts-node ./server.ts"
+    "run:server": "ts-node ./server.ts",
+    "chap3:run": "ts-node ./chap3/server.ts"
   },
   "repository": {
     "type": "git",
