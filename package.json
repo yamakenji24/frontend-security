@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "run:server": "ts-node ./server.ts",
     "chap3:run": "ts-node ./chap3/server.ts",
-    "chap4:run": "ts-node ./chap4/server.ts"
+    "chap4:run": "ts-node ./chap4/server.ts",
+    "chap5:run": "ts-node ./chap5/server.ts"
   },
   "repository": {
     "type": "git",
