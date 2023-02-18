@@ -13,7 +13,8 @@
       const url = new URL(location.href);
       const message = url.searchParams.get("message");
       if (message != null) {
-        document.querySelector("#result").innerHTML = message;
+        const textNode = document.createTextNode(message)
+        document.querySelector("#result").appendChild(textNode);
       }
     </script>
   </body>
