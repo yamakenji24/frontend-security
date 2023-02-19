@@ -46,12 +46,6 @@ app.get("/", (req, res, next) => {
   res.end("Top Page");
 });
 
-app.use(express.urlencoded({ extended: true}));
-app.post("/signup", (req, res) => {
-  console.log(req.body)
-  res.send("アカウント登録しました")
-})
-
 app.listen(PORT, () => {
   console.log(`Server is running or port ${PORT}`);
 });

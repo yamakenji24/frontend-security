@@ -9,7 +9,8 @@
     "chap3:run": "ts-node ./chap3/server.ts",
     "chap4:run": "ts-node ./chap4/server.ts",
     "chap5:run": "ts-node ./chap5/server.ts",
-    "chap6:run": "ts-node ./chap6/server.ts"
+    "chap6:run": "ts-node ./chap6/server.ts",
+    "chap7:run": "ts-node ./chap7/server.ts"
   },
   "repository": {
     "type": "git",
